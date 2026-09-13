@@ -48,6 +48,9 @@ def link_text(a, href: str) -> tuple[str, str]:
 
 
 def date_from(text: str) -> str | None:
+    m = re.search(r"(\d{1,2})[-/](\d{1,2})[-/](20\d{2})", text)
+    if m:
+        return f"{int(m.group(3)):04d}-{int(m.group(2)):02d}-{int(m.group(1)):02d}"
     month_re = "|".join(MONTHS)
     m = re.search(rf"(\d{{1,2}})\s+(?:de\s+)?({month_re})\s+(?:de\s+)?(20\d{{2}})", text, re.I)
     if m:
@@ -97,8 +100,15 @@ def scrape_dapre(now: datetime) -> list[dict]:
         href = urljoin(page, a["href"])
         title, nearby = link_text(a, href)
         combined = f"{title} {nearby} {unquote(href)}"
-        if re.search(rf"\bDECRETO\b[^0-9]{{0,30}}\d+.*\b{now.year}\b", combined, re.I):
+        is_document = re.search(r"\.(?:pdf|docx?)(?:$|[?#])", href, re.I)
+        if is_document and re.search(rf"\bDECRETO\b[^0-9]{{0,30}}\d+.*\b{now.year}\b", combined, re.I):
             out.append(item("Presidencia – DAPRE", title, href, nearby))
+    if not out:
+        sample = [
+            f"{clean(a.get_text(' ', strip=True))[:80]} -> {a.get('href', '')[:160]}"
+            for a in soup.select("a[href]")[:25]
+        ]
+        raise RuntimeError("Enlaces observados: " + " | ".join(sample))
     return out
 
 
@@ -113,6 +123,12 @@ def scrape_ctcp(now: datetime) -> list[dict]:
         is_document = re.search(r"\.(?:pdf|docx?)(?:$|[?#])", href, re.I)
         if str(now.year) in combined and is_document and re.search(r"concepto|consulta|radicad", combined, re.I):
             out.append(item("CTCP", title, href, nearby))
+    if not out:
+        sample = [
+            f"{clean(a.get_text(' ', strip=True))[:80]} -> {a.get('href', '')[:160]}"
+            for a in soup.select("a[href]")[:40]
+        ]
+        raise RuntimeError("Enlaces observados: " + " | ".join(sample))
     return out
 
 
