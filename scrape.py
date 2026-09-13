@@ -6,7 +6,7 @@ import re
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urljoin, urlsplit, urlunsplit
+from urllib.parse import unquote, urljoin, urlsplit, urlunsplit
 
 import requests
 import urllib3
@@ -16,7 +16,12 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 OUT = Path("docs/feed.json")
 MONTHS = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
-HEADERS = {"User-Agent": "ContadoresHoyRadarBridge/1.0 (+https://contadoreshoy.com)"}
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "es-CO,es;q=0.9,en;q=0.7",
+}
 
 
 def canonical(url: str) -> str:
@@ -26,6 +31,19 @@ def canonical(url: str) -> str:
 
 def clean(text: str) -> str:
     return re.sub(r"\s+", " ", text or "").strip()
+
+
+def link_text(a, href: str) -> tuple[str, str]:
+    """Return the best human title and nearby row/card text for a link."""
+    own = clean(a.get_text(" ", strip=True))
+    nearby_node = a.find_parent(["tr", "li", "article", "div", "p"]) or a.parent
+    nearby = clean(nearby_node.get_text(" ", strip=True)) if nearby_node else own
+    filename = clean(unquote(urlsplit(href).path.rsplit("/", 1)[-1]).rsplit(".", 1)[0])
+    generic = {"", "ver", "descargar", "ver concepto", "ver decreto", "pdf"}
+    title = nearby if own.lower() in generic else own
+    if title.lower() in generic:
+        title = filename
+    return title, nearby
 
 
 def date_from(text: str) -> str | None:
@@ -64,9 +82,11 @@ def scrape_dapre(now: datetime) -> list[dict]:
     soup = fetch(page, verify=False)
     out = []
     for a in soup.select("a[href]"):
-        title = clean(a.get_text(" ", strip=True))
-        if re.match(r"^DECRETO\s+(?:No\.?\s*)?\d+", title, re.I):
-            out.append(item("Presidencia – DAPRE", title, urljoin(page, a["href"]), clean(a.parent.get_text(" ", strip=True))))
+        href = urljoin(page, a["href"])
+        title, nearby = link_text(a, href)
+        combined = f"{title} {nearby} {unquote(href)}"
+        if re.search(rf"\bDECRETO\b[^0-9]{{0,30}}\d+.*\b{now.year}\b", combined, re.I):
+            out.append(item("Presidencia – DAPRE", title, href, nearby))
     return out
 
 
@@ -75,14 +95,12 @@ def scrape_ctcp(now: datetime) -> list[dict]:
     soup = fetch(page, verify=False)
     out = []
     for a in soup.select("a[href]"):
-        title = clean(a.get_text(" ", strip=True))
         href = urljoin(page, a["href"])
-        combined = f"{title} {href}"
-        if re.search(r"concepto[^0-9]{0,20}\d+", combined, re.I):
-            if not title or title.lower() in {"ver", "descargar", "ver concepto"}:
-                title = clean(a.parent.get_text(" ", strip=True))
-            if re.search(r"concepto[^0-9]{0,20}\d+", title, re.I):
-                out.append(item("CTCP", title, href, clean(a.parent.get_text(" ", strip=True))))
+        title, nearby = link_text(a, href)
+        combined = f"{title} {nearby} {unquote(href)}"
+        is_document = re.search(r"\.(?:pdf|docx?)(?:$|[?#])", href, re.I)
+        if str(now.year) in combined and is_document and re.search(r"concepto|consulta|radicad", combined, re.I):
+            out.append(item("CTCP", title, href, nearby))
     return out
 
 
@@ -95,10 +113,11 @@ def scrape_dian(now: datetime) -> list[dict]:
     for page in pages:
         soup = fetch(page, verify=False)
         for a in soup.select("a[href]"):
-            title = clean(a.get_text(" ", strip=True))
             href = urljoin(page, a["href"])
-            if re.match(r"^(RESOLUCI[ÓO]N|CIRCULAR)\s+(?:No\.?\s*)?\d+", title, re.I):
-                out.append(item("DIAN", title, href, clean(a.parent.get_text(" ", strip=True))))
+            title, nearby = link_text(a, href)
+            combined = f"{title} {nearby} {unquote(href)}"
+            if str(now.year) in combined and re.search(r"\b(RESOLUCI[ÓO]N|CIRCULAR)\b[^0-9]{0,30}\d+", combined, re.I):
+                out.append(item("DIAN", title, href, nearby))
     return out
 
 
@@ -108,7 +127,10 @@ def main() -> None:
     errors: list[dict] = []
     for name, scraper in [("DIAN", scrape_dian), ("CTCP", scrape_ctcp), ("Presidencia – DAPRE", scrape_dapre)]:
         try:
-            records.extend(scraper(now))
+            found = scraper(now)
+            records.extend(found)
+            if not found:
+                errors.append({"source": name, "error": "La página respondió, pero no entregó enlaces reconocibles"})
         except Exception as exc:
             errors.append({"source": name, "error": f"{type(exc).__name__}: {exc}"})
         time.sleep(1)
@@ -127,4 +149,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
