@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T00:24:46.101537+00:00",
+  "generated_at": "2026-09-13T00:27:45.645934+00:00",
   "count": 49,
   "items": [
     {
@@ -398,7 +398,7 @@
   "errors": [
     {
       "source": "CTCP",
-      "error": "RuntimeError: Enlaces observados: Saltar al contenido principal -> #ContenidoCentral |  -> https://www.gov.co |  -> https://www.mincit.gov.co |  -> / | Inicio -> /inicio | Qué es el CTCP -> /que-es-el-ctcp | Equipo de trabajo -> /que-es-el-ctcp/equipo-de-trabajo | Sesiones -> /que-es-el-ctcp/sesiones | Actas Sala Plena -> /que-es-el-ctcp/sesiones/actas-sala-plena | Reglamentos -> /que-es-el-ctcp/sesiones/reglamentos | Informes de gestión -> /que-es-el-ctcp/sesiones/informes-de-gestion | Planes de trabajo -> /que-es-el-ctcp/sesiones/planes-de-trabajo | Comités -> /que-es-el-ctcp/comites | Preguntas frecuentes -> /que-es-el-ctcp/preguntas-frecuentes | Noticias -> /noticias | Conceptos -> /conceptos | Proyectos -> /proyectos | Contabilidad e Información Financiera -> /proyectos/contabilidad-e-informacion-financiera | Documentos de Discusión Pública -> /proyectos/contabilidad-e-informacion-financiera/documentos-discusion-publica | Documentos Definitivos -> /proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales | Organismos Internacionales -> /proyectos/contabilidad-e-informacion-financiera/organismos-internacionales | Aseguramiento y Revisoría Fiscal -> /proyectos/aseguramiento-revisoria-fiscal | Documentos de Discusión Pública -> /proyectos/aseguramiento-revisoria-fiscal/documentos-discusion-publica | Recomendaciones a los reguladores -> /proyectos/aseguramiento-revisoria-fiscal/recomendaciones-a-los-reguladores | Organismos internacionales -> /proyectos/aseguramiento-revisoria-fiscal/documentos-organismos-internacionales | Normatividad -> /normatividad | Normas locales -> /normatividad/normas-locales | Estándares internacionales -> /normatividad/estandares-internacionales | Publicaciones CTCP -> /publicaciones-ctcp | Documentos de Orientación Técnica -> /publicaciones-ctcp/orientaciones-tecnicas | Documentos de Orientación Pedagógica -> /publicaciones-ctcp/orientaciones-pedagogicas | Compilaciones de conceptos -> /publicaciones-ctcp/compilacion-de-conceptos | Compilaciones normativas -> /publicaciones-ctcp/compilaciones-normativas | Boletines CTCP -> /publicaciones-ctcp/boletines-ctcp | Presentaciones -> /publicaciones-ctcp/presentaciones | Recursos -> /recursos | Calendario de eventos -> /recursos/calendario-eventos | Conceptos -> /conceptos/2026 | Preguntas frecuentes -> /que-es-el-ctcp/preguntas-frecuentes | Consultas ya resueltas -> #"
+      "error": "RuntimeError: Enlaces observados: Conceptos -> /conceptos/2026"
     }
   ]
 }
