@@ -163,13 +163,26 @@ def main() -> None:
     now = datetime.now(timezone.utc)
     records: list[dict] = []
     errors: list[dict] = []
+    previous: list[dict] = []
+    if OUT.exists():
+        try:
+            previous = json.loads(OUT.read_text(encoding="utf-8")).get("items", [])
+        except (OSError, ValueError, TypeError):
+            previous = []
+
+    def keep_previous(source: str) -> None:
+        records.extend(r for r in previous if r.get("source") == source)
+
     for name, scraper in [("DIAN", scrape_dian), ("CTCP", scrape_ctcp), ("Presidencia – DAPRE", scrape_dapre)]:
         try:
             found = scraper(now)
-            records.extend(found)
-            if not found:
-                errors.append({"source": name, "error": "La página respondió, pero no entregó enlaces reconocibles"})
+            if found:
+                records.extend(found)
+            else:
+                keep_previous(name)
+                errors.append({"source": name, "error": "Sin enlaces nuevos; se conservó el último resultado válido"})
         except Exception as exc:
+            keep_previous(name)
             errors.append({"source": name, "error": f"{type(exc).__name__}: {exc}"})
         time.sleep(1)
 
