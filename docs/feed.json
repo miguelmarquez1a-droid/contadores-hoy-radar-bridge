@@ -1,6 +1,19 @@
 {
-  "generated_at": "2026-09-13T00:17:27.389163+00:00",
+  "generated_at": "2026-09-13T00:19:22.362933+00:00",
   "count": 0,
   "items": [],
-  "errors": []
+  "errors": [
+    {
+      "source": "DIAN",
+      "error": "La página respondió, pero no entregó enlaces reconocibles"
+    },
+    {
+      "source": "CTCP",
+      "error": "La página respondió, pero no entregó enlaces reconocibles"
+    },
+    {
+      "source": "Presidencia – DAPRE",
+      "error": "La página respondió, pero no entregó enlaces reconocibles"
+    }
+  ]
 }
