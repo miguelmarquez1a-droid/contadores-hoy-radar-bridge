@@ -11,6 +11,7 @@ from urllib.parse import unquote, urljoin, urlsplit, urlunsplit
 import requests
 import urllib3
 from bs4 import BeautifulSoup
+from playwright.sync_api import sync_playwright
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -58,10 +59,21 @@ def date_from(text: str) -> str | None:
 
 
 def fetch(url: str, verify: bool = True) -> BeautifulSoup:
-    response = requests.get(url, headers=HEADERS, timeout=45, verify=verify)
-    response.raise_for_status()
-    response.encoding = response.apparent_encoding or response.encoding
-    return BeautifulSoup(response.text, "html.parser")
+    # These government portals populate their lists with JavaScript. A real
+    # browser is therefore required; plain requests often returns an empty shell.
+    with sync_playwright() as pw:
+        browser = pw.chromium.launch(headless=True)
+        context = browser.new_context(
+            user_agent=HEADERS["User-Agent"],
+            locale="es-CO",
+            ignore_https_errors=not verify,
+        )
+        page = context.new_page()
+        page.goto(url, wait_until="domcontentloaded", timeout=90000)
+        page.wait_for_timeout(6000)
+        html = page.content()
+        browser.close()
+    return BeautifulSoup(html, "html.parser")
 
 
 def item(source: str, title: str, url: str, context: str = "") -> dict:
