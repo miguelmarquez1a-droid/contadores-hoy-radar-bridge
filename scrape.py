@@ -122,23 +122,23 @@ def scrape_ctcp(now: datetime) -> list[dict]:
         combined = f"{title} {nearby} {unquote(href)}"
         is_document = re.search(r"\.(?:pdf|docx?)(?:$|[?#])", href, re.I)
         is_detail = re.search(rf"/conceptos/{now.year}/[^/?#]+", urlsplit(href).path, re.I)
-        if is_detail or (str(now.year) in combined and is_document and re.search(r"concepto|consulta|radicad", combined, re.I)):
+        is_download = re.search(r"getfile|download|attachment|document|media", href, re.I)
+        has_concept_code = re.search(rf"\b(?:{now.year}[-/]\d+|\d{{3,4}}[-/]{now.year})\b", combined, re.I)
+        if is_detail or (
+            str(now.year) in combined
+            and (is_document or is_download)
+            and (has_concept_code or re.search(r"concepto|consulta|radicad", combined, re.I))
+        ):
             out.append(item("CTCP", title, href, nearby))
     if not out:
         anchors = soup.select("a[href]")
         likely = [a for a in anchors if str(now.year) in f"{a.get_text(' ', strip=True)} {a.get('href', '')}"]
         observed = (likely[:50] or anchors[-40:])
-        public_assets = [urljoin(page, s["src"]) for s in soup.select("script[src]")]
-        public_forms = [urljoin(page, f.get("action", "")) for f in soup.select("form") if f.get("action")]
         sample = [
             f"{clean(a.get_text(' ', strip=True))[:80]} -> {a.get('href', '')[:160]}"
             for a in observed
         ]
-        raise RuntimeError(
-            "Enlaces observados: " + " | ".join(sample)
-            + " || Scripts públicos: " + " | ".join(public_assets[-30:])
-            + " || Formularios públicos: " + " | ".join(public_forms)
-        )
+        raise RuntimeError("Enlaces observados: " + " | ".join(sample))
     return out
 
 
