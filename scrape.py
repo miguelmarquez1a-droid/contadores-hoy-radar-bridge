@@ -128,11 +128,17 @@ def scrape_ctcp(now: datetime) -> list[dict]:
         anchors = soup.select("a[href]")
         likely = [a for a in anchors if str(now.year) in f"{a.get_text(' ', strip=True)} {a.get('href', '')}"]
         observed = (likely[:50] or anchors[-40:])
+        public_assets = [urljoin(page, s["src"]) for s in soup.select("script[src]")]
+        public_forms = [urljoin(page, f.get("action", "")) for f in soup.select("form") if f.get("action")]
         sample = [
             f"{clean(a.get_text(' ', strip=True))[:80]} -> {a.get('href', '')[:160]}"
             for a in observed
         ]
-        raise RuntimeError("Enlaces observados: " + " | ".join(sample))
+        raise RuntimeError(
+            "Enlaces observados: " + " | ".join(sample)
+            + " || Scripts públicos: " + " | ".join(public_assets[-30:])
+            + " || Formularios públicos: " + " | ".join(public_forms)
+        )
     return out
 
 
