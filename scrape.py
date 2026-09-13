@@ -121,12 +121,16 @@ def scrape_ctcp(now: datetime) -> list[dict]:
         title, nearby = link_text(a, href)
         combined = f"{title} {nearby} {unquote(href)}"
         is_document = re.search(r"\.(?:pdf|docx?)(?:$|[?#])", href, re.I)
-        if str(now.year) in combined and is_document and re.search(r"concepto|consulta|radicad", combined, re.I):
+        is_detail = re.search(rf"/conceptos/{now.year}/[^/?#]+", urlsplit(href).path, re.I)
+        if is_detail or (str(now.year) in combined and is_document and re.search(r"concepto|consulta|radicad", combined, re.I)):
             out.append(item("CTCP", title, href, nearby))
     if not out:
+        anchors = soup.select("a[href]")
+        likely = [a for a in anchors if str(now.year) in f"{a.get_text(' ', strip=True)} {a.get('href', '')}"]
+        observed = (likely[:50] or anchors[-40:])
         sample = [
             f"{clean(a.get_text(' ', strip=True))[:80]} -> {a.get('href', '')[:160]}"
-            for a in soup.select("a[href]")[:40]
+            for a in observed
         ]
         raise RuntimeError("Enlaces observados: " + " | ".join(sample))
     return out
