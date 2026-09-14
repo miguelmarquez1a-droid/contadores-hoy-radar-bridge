@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T06:38:02.115091+00:00",
+  "generated_at": "2026-09-14T12:36:40.841767+00:00",
   "count": 49,
   "items": [
     {
@@ -9,6 +9,14 @@
       "date": "2026-09-11",
       "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 013397 de 11-09-2026.pdf",
       "summary": "Resolución 013397 de 2026 11/09/2026 Por la cual se prorroga la suspensión de los términos prevista en la Resolución No. 012660 del 27 de agosto de 2026 para la Dirección Seccional de Impuestos y Aduanas de Pereira, ante la Situación de Desastre de Carácter Nacional declarada mediante Decreto 1171 del 11 de agosto de 2026 y el Estado de Emergencia Económica, Social y Ecológica declarado mediante Decreto 1261 del 19 de agosto de 2026."
+    },
+    {
+      "id": "4ceb476c6706ed3ab50bd0b30d23920d92476c20a238770d0b856ff50e5e6c17",
+      "source": "DIAN",
+      "title": "Resolución 000987 de 2026",
+      "date": "2026-09-11",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000987 de 11-09-2026.pdf",
+      "summary": "Resolución 000987 de 2026 11/09/2026 Por la cual se habilitan como días laborales el sábado 12 y el domingo 13 de septiembre de 2026 para los servidores públicos comisionados mediante Documento de Autorización, Reconocimiento y Ordenación de Pago Comisión al Interior del País del 10 de septiembre de 2026 proferido el Despacho de la Dirección Seccional de Impuestos y Aduanas de Tunja"
     },
     {
       "id": "90fc7599bb01f2138448f7ea306ec7d3ea252e31c9feb076b33654c8111b729e",
@@ -307,14 +315,6 @@
       "summary": "Circular 006115 de 2026 31/08/2026 Gravámenes Ad-Valórem aplicables a productos agropecuarios de referencia, sus sustitutos, productos agroindustriales o subproductos"
     },
     {
-      "id": "21b55a6bac1306a6a5665f61ff3f42e308be3d986c4aeb0dc458c82d94d926b2",
-      "source": "DIAN",
-      "title": "Resolución 012660 de 2026",
-      "date": "2026-08-27",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 012660 de 27-08-2026.pdf",
-      "summary": "Resolución 012660 de 2026 27/08/2026 Por la cual se suspenden los términos en los procesos y actuaciones administrativas en materia tributaria, aduanera y cambiaria de competencia de la Unidad Administrativa Especial Dirección de Impuestos y Aduanas Nacionales – DIAN, en las Direcciones Seccionales de Pereira, Buenaventura, Tuluá y Manizales ante la Situación de Desastre de Carácter Nacional declarada mediante Decreto 1171 del 11 de agosto de 2026"
-    },
-    {
       "id": "501162c0a9daa5291d01035a5f08fc8ed23eee85d8d49c01c5aa9aef4bae516f",
       "source": "DIAN",
       "title": "Resolución 000913 de 2026",
@@ -398,7 +398,7 @@
   "errors": [
     {
       "source": "CTCP",
-      "error": "RuntimeError: Enlaces observados: Conceptos -> /conceptos/2026"
+      "error": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.ctcp.gov.co/conceptos/2026\", waiting until \"domcontentloaded\"\n"
     }
   ]
 }
