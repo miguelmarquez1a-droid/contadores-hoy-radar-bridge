@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-09-14T18:33:47.094584+00:00",
+  "generated_at": "2026-09-15T00:37:57.653301+00:00",
   "count": 49,
   "items": [
+    {
+      "id": "66e4e14009c7fa2ffd6a2cc89f41f73fcca17ae8bd8383d3078134c61745973e",
+      "source": "DIAN",
+      "title": "Resolución 000059 de 2026",
+      "date": "2026-09-14",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000059 de 14-09-2026.pdf",
+      "summary": "Resolución 000059 de 2026 14/09/2026 Por medio de la cual se modifica de forma transitoria el horario de atención al público y la jornada laboral de la Dirección Seccional Delegada de Impuestos y Aduanas de Inírida para el dieciocho (18) de septiembre de dos mil veintiséis (2026)"
+    },
+    {
+      "id": "e4726255fded9c6e2f73c89cae77cbf65df53c92d98d78b6607b618c483c224e",
+      "source": "DIAN",
+      "title": "Circular 006122 de 2026",
+      "date": "2026-09-14",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Circular 006122 de 14-09-2026.Pdf",
+      "summary": "Circular 006122 de 2026 14/09/2026 Gravámenes Ad-Valórem aplicables a productos agropecuarios de referencia, sus sustitutos, productos agroindustriales o subproductos"
+    },
     {
       "id": "4ce72775b4da39c6b89a6310e175bdd070ae1c386b7ff0296205523beb2d0e0f",
       "source": "DIAN",
@@ -315,14 +331,6 @@
       "summary": "Circular 006115 de 2026 31/08/2026 Gravámenes Ad-Valórem aplicables a productos agropecuarios de referencia, sus sustitutos, productos agroindustriales o subproductos"
     },
     {
-      "id": "501162c0a9daa5291d01035a5f08fc8ed23eee85d8d49c01c5aa9aef4bae516f",
-      "source": "DIAN",
-      "title": "Resolución 000913 de 2026",
-      "date": "2026-08-27",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000913 de 27-08-2026.pdf",
-      "summary": "Resolución 000913 de 2026 27/08/2026 Por la cual se modifica temporalmente el horario de trabajo y atención al público en la División de Servicio al Ciudadano de la Dirección Seccional de Impuestos y Aduanas de Tunja."
-    },
-    {
       "id": "15595b2ac39912c94ca367c4cb2457200b48920be372918f739a4cb748148356",
       "source": "DIAN",
       "title": "Circular 006068 de 2026",
@@ -385,14 +393,6 @@
       "date": "2026-05-13",
       "url": "https://www.dian.gov.co/normatividad/Normatividad/Circular 000003 de 13-05-2026.pdf",
       "summary": "Circular 000003 de 2026 13/05/2026 Traslado y Reporte de Reacaudo Impuestos Nacionales"
-    },
-    {
-      "id": "5e081e0b14f80a4dbb4c32b94aed40370aa0ebc14da822c44e20cc982d25903e",
-      "source": "DIAN",
-      "title": "Circular 006004 de 2026",
-      "date": "2026-05-12",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Circular 006004 de 12-05-2026.Pdf",
-      "summary": "Circular 006004 de 2026 12/05/2026 Gravámenes Ad-Valórem aplicables a productos agropecuarios de referencia, sus sustitutos, productos agroindustriales o subproductos"
     }
   ],
   "errors": [
