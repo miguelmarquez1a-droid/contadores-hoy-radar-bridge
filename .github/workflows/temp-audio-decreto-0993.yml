@@ -1,0 +1,39 @@
+name: temp-audio-decreto-0993
+
+on:
+  push:
+    branches:
+      - temp-audio-decreto-0993
+
+jobs:
+  generar-audio:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar sintetizador neural
+        run: |
+          python -m pip install --upgrade pip
+          pip install edge-tts
+
+      - name: Generar narracion en espanol colombiano
+        run: |
+          edge-tts --voice es-CO-GonzaloNeural --rate=-3% --text "Monto de las cotizaciones al sistema general de pensiones, subsidio familiar y riesgos laborales para la persona trabajadora de tiempo parcial o por días. Entre uno y siete días, una cotización mínima semanal. Entre ocho y catorce días, dos cotizaciones mínimas semanales. Entre quince y veintiún días, tres cotizaciones mínimas semanales. Más de veintiún días, cuatro cotizaciones mínimas semanales, equivalen a un salario mínimo mensual." --write-media audio_12.mp3
+
+      - name: Convertir al formato de la presentacion original
+        run: |
+          ffmpeg -y -i audio_12.mp3 -ar 24000 -ac 1 -b:a 48k audio_12_24k.mp3
+          mv audio_12_24k.mp3 audio_12.mp3
+
+      - name: Guardar audio
+        uses: actions/upload-artifact@v4
+        with:
+          name: audio-decreto-0993
+          path: audio_12.mp3
+          retention-days: 1
