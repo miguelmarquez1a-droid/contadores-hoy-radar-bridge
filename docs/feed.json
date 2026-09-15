@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-09-15T12:34:57.696726+00:00",
-  "count": 49,
+  "generated_at": "2026-09-15T18:30:34.945063+00:00",
+  "count": 50,
   "items": [
+    {
+      "id": "f264e00a7de82c2c8a3b12303b64b62a8184f3f4f903945010db13b5f76c4dac",
+      "source": "Presidencia – DAPRE",
+      "title": "DECRETO No. 1395 DEL 15 DE SEPTIEMBRE DE 2026",
+      "date": "2026-09-15",
+      "url": "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO No. 1395 DEL 15 DE SEPTIEMBRE DE 2026.pdf",
+      "summary": "DECRETO No. 1395 DEL 15 DE SEPTIEMBRE DE 2026 Por medio del cual se acepta una renuncia y se hace un nombramiento ordinario"
+    },
+    {
+      "id": "acc177df39fa4ea065599262cd0974c9d6a648dda7c123fbc51d1e7269123993",
+      "source": "DIAN",
+      "title": "Resolución 001702 de 2026",
+      "date": "2026-09-14",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 001702 de 14-09-2026.pdf",
+      "summary": "Resolución 001702 de 2026 14/09/2026 Por la cual se modifica el horario de atención al público y la jornada laboral de los días 15, 16, 17 y 18 de septiembre de 2026 en la Dirección Seccional de Impuestos y Aduanas de Villavicencio"
+    },
     {
       "id": "66e4e14009c7fa2ffd6a2cc89f41f73fcca17ae8bd8383d3078134c61745973e",
       "source": "DIAN",
@@ -25,6 +41,14 @@
       "date": "2026-09-11",
       "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 013397 de 11-09-2026.pdf",
       "summary": "Resolución 013397 de 2026 11/09/2026 Por la cual se prorroga la suspensión de los términos prevista en la Resolución No. 012660 del 27 de agosto de 2026 para la Dirección Seccional de Impuestos y Aduanas de Pereira, ante la Situación de Desastre de Carácter Nacional declarada mediante Decreto 1171 del 11 de agosto de 2026 y el Estado de Emergencia Económica, Social y Ecológica declarado mediante Decreto 1261 del 19 de agosto de 2026."
+    },
+    {
+      "id": "3a104b26c3e17b8750c83caded6ff1cb0c01c414445879451c8382ce4b8a3cd1",
+      "source": "DIAN",
+      "title": "Resolución 003736 de 2026",
+      "date": "2026-09-11",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 003736 de 11-09-2026.pdf",
+      "summary": "Resolución 003736 de 2026 11/09/2026 Por la cual se declaran administrativamente hábiles los días 12 y 19 de septiembre de 2026 y se amplía el horario laboral para determinados funcionarios de la Dirección Seccional de Impuestos de Cali"
     },
     {
       "id": "4ceb476c6706ed3ab50bd0b30d23920d92476c20a238770d0b856ff50e5e6c17",
@@ -305,22 +329,6 @@
       "date": "2026-09-02",
       "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 012971 de 02-09-2026.Pdf",
       "summary": "Resolución 012971 de 2026 02/09/2026 Por la cual se justifica el proceso de contratación directa No.CD-00-072-2026, cuyo objeto es \"El Arrendamiento del local comercial, identificado con matrícula inmobiliaria No. 50C-1262114, ubicado en la Transversal 93 No. 64 G - 13, zona industrial del Barrio Álamos en la Ciudad de Bogotá D.C.\""
-    },
-    {
-      "id": "557772d66b03fcf50cc7b6bf4742c94ef0e94e3bf7c4bff9beed56a1bf7cfa97",
-      "source": "DIAN",
-      "title": "Resolución 012816 de 2026",
-      "date": "2026-08-31",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 012816 de 31-08-2026.pdf",
-      "summary": "Resolución 012816 de 2026 31/08/2026 Por la cual se justifica la contratación directa No. CD-00-074-2026 que tiene por objeto: “Compraventa de repuestos y/o consumibles para los equipos marca Struers para la Subdirección del Laboratorio Aduanero”."
-    },
-    {
-      "id": "a053c934eef9131fcad4940c86cb8c059395b2dfe76ab92256b51d1826b56644",
-      "source": "DIAN",
-      "title": "Resolución 000028 de 2026",
-      "date": "2026-08-31",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000028 de 31-08-2026.pdf",
-      "summary": "Resolución 000028 de 2026 31/08/2026 Por la cual se prórroga temporalmente la modalidad de trabajo en casa para los Servidores Públicos ubicados en la Dirección Seccional de Impuestos y Aduanas de Pereira de la UAE Dirección de Impuestos y Aduanas Nacionales – DIAN"
     },
     {
       "id": "751ef3fcf46ca64e59cf74d430d265c6995ec9269cb92949ee2c68be2193152f",
