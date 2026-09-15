@@ -26,14 +26,10 @@ jobs:
         run: |
           edge-tts --voice es-CO-GonzaloNeural --rate=-3% --text "Monto de las cotizaciones al sistema general de pensiones, subsidio familiar y riesgos laborales para la persona trabajadora de tiempo parcial o por días. Entre uno y siete días, una cotización mínima semanal. Entre ocho y catorce días, dos cotizaciones mínimas semanales. Entre quince y veintiún días, tres cotizaciones mínimas semanales. Más de veintiún días, cuatro cotizaciones mínimas semanales, equivalen a un salario mínimo mensual." --write-media audio_12.mp3
 
-      - name: Convertir al formato de la presentacion original
-        run: |
-          ffmpeg -y -i audio_12.mp3 -ar 24000 -ac 1 -b:a 48k audio_12_24k.mp3
-          mv audio_12_24k.mp3 audio_12.mp3
-
       - name: Guardar audio
         uses: actions/upload-artifact@v4
         with:
           name: audio-decreto-0993
           path: audio_12.mp3
+          if-no-files-found: error
           retention-days: 1
