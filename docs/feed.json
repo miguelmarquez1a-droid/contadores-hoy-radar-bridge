@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T12:36:13.599300+00:00",
+  "generated_at": "2026-09-16T18:32:20.466286+00:00",
   "count": 50,
   "items": [
     {
@@ -407,6 +407,10 @@
     {
       "source": "CTCP",
       "error": "RuntimeError: Enlaces observados: Conceptos -> /conceptos/2026"
+    },
+    {
+      "source": "Presidencia – DAPRE",
+      "error": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://dapre.presidencia.gov.co/normativa/decretos-2026/decretos-septiembre-2026\", waiting until \"domcontentloaded\"\n"
     }
   ]
 }
