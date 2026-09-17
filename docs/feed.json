@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-09-17T12:35:23.373147+00:00",
+  "generated_at": "2026-09-17T18:32:42.217002+00:00",
   "count": 50,
   "items": [
+    {
+      "id": "c31d8ba1b8e808e0a1982f90f88f35f90f02a26fddd4332fd3f3e437045beacb",
+      "source": "DIAN",
+      "title": "Resolución 000029 de 2026",
+      "date": "2026-09-16",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000029 de 16-09-2026.Pdf",
+      "summary": "Resolución 000029 de 2026 16/09/2026 Por la cual se adoptan medidas temporales sobre términos, trámites y actuaciones administrativas para la Dirección Seccional de Impuestos y Aduanas de Buenaventura, ante la Situación de Desastre de Carácter Nacional declarada mediante Decreto 1171 del 11 de agosto de 2026 y el Estado de Emergencia Económica, Social y Ecológica declarado mediante Decreto 1261 del 19 de agosto de 2026."
+    },
     {
       "id": "f264e00a7de82c2c8a3b12303b64b62a8184f3f4f903945010db13b5f76c4dac",
       "source": "Presidencia – DAPRE",
@@ -313,14 +321,6 @@
       "date": "2026-09-03",
       "url": "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO No. 1349 DEL 3 DE SEPTIEMBRE DE 2026.pdf",
       "summary": "DECRETO No. 1349 DEL 3 DE SEPTIEMBRE DE 2026 Por medio del cual se da por terminado un encargo y se efectúa un nombramiento ordinario"
-    },
-    {
-      "id": "e540b8685e8a5ee5fb8f0ef145f7dd44d632a96ffc3bb8ddda4f96f7fa7715d3",
-      "source": "DIAN",
-      "title": "Resolución 012973 de 2026",
-      "date": "2026-09-02",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 012973 de 02-09-2026.Pdf",
-      "summary": "Resolución 012973 de 2026 02/09/2026 Por la cual se justifica el proceso de contratación el proceso de contratación directa No. CD-00-071-2026 cuyo objeto es \"Arrendamiento de bien inmueble recibido en pago de obligaciones fiscales Lote de Terreno ubicado en la Calle 245 No. 7-35 de Bogotá D.C identificado con M.I. No.50N-506239, para actividad económica CIU 9609.\""
     },
     {
       "id": "f9afcbcfc335bd41dd6148ac954074a9720154805db9bbeed6f18db6199a6d86",
