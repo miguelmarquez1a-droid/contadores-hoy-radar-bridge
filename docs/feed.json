@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-09-17T18:32:42.217002+00:00",
-  "count": 50,
+  "generated_at": "2026-09-18T00:35:17.644162+00:00",
+  "count": 54,
   "items": [
+    {
+      "id": "b390f64e58e373a949090c5101b63871cb0ebe4d0e68a0d8b26dc888c8b3486f",
+      "source": "Presidencia – DAPRE",
+      "title": "DECRETO No. 1408 DEL 17 DE SEPTIEMBRE DE 2026",
+      "date": "2026-09-17",
+      "url": "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO No. 1408 DEL 17 DE SEPTIEMBRE DE 2026.pdf",
+      "summary": "DECRETO No. 1408 DEL 17 DE SEPTIEMBRE DE 2026 \"Por el cual se desvincula un funcionario en el servicio exterior\""
+    },
+    {
+      "id": "f7dd38d6fa361af765be6629ff4edf69e697f927533dcfd3ab5ce7e20386fef5",
+      "source": "Presidencia – DAPRE",
+      "title": "DECRETO No. 1407 DEL 17 DE SEPTIEMBRE DE 2026",
+      "date": "2026-09-17",
+      "url": "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO No. 1407 DEL 17 DE SEPTIEMBRE DE 2026.pdf",
+      "summary": "DECRETO No. 1407 DEL 17 DE SEPTIEMBRE DE 2026 \"Por medio del cual se nombra un ministro de Ambiente y Desarrollo Sostenible Ad Hoc\""
+    },
+    {
+      "id": "1106c1d7dfd0eded119696c8fdbfad0375b971e5e34bce5ae271d59a115c223e",
+      "source": "Presidencia – DAPRE",
+      "title": "DECRETO No. 1406 DEL 17 DE SEPTIEMBRE DE 2026",
+      "date": "2026-09-17",
+      "url": "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO No. 1406 DEL 17 DE SEPTIEMBRE DE 2026.pdf",
+      "summary": "DECRETO No. 1406 DEL 17 DE SEPTIEMBRE DE 2026 Por el cual se acepta la renuncia del Notario Tercero (3) del Círculo Notarial de Envigado -Antioquia."
+    },
+    {
+      "id": "50df8eb99ce1ff38bf92c14853f5a5dc7d465307935dc199edcdd25f934e4801",
+      "source": "Presidencia – DAPRE",
+      "title": "DECRETO No. 1405 DEL 17 DE SEPTIEMBRE DE 2026",
+      "date": "2026-09-17",
+      "url": "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO No. 1405 DEL 17 DE SEPTIEMBRE DE 2026.pdf",
+      "summary": "DECRETO No. 1405 DEL 17 DE SEPTIEMBRE DE 2026 Por el cual se acepta la renuncia del Notario Sesenta y Tres (63) del Círculo Notarial de Bogotá D. C."
+    },
     {
       "id": "c31d8ba1b8e808e0a1982f90f88f35f90f02a26fddd4332fd3f3e437045beacb",
       "source": "DIAN",
