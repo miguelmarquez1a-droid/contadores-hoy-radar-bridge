@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-09-18T06:34:24.603811+00:00",
+  "generated_at": "2026-09-18T12:33:40.360262+00:00",
   "count": 69,
   "items": [
+    {
+      "id": "31851910a352e07cf3f5ea04886a2212a4ed10a01c1e7a4f1f6ea1fcd3418916",
+      "source": "DIAN",
+      "title": "Resolución 000119 de 2026",
+      "date": "2026-09-17",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000119 de 17-09-2026.Pdf",
+      "summary": "Resolución 000119 de 2026 17/09/2026 Por la cual se establece el horario de atención al público del día 18 de septiembre de 2026 en la Dirección Seccional Delegada de Impuestos y Aduanas de Puerto Carreño."
+    },
     {
       "id": "b5326b9c78e14fe082d7b46396f393a16187cf0d3b05710bd432a34fadc86a46",
       "source": "Presidencia – DAPRE",
@@ -473,14 +481,6 @@
       "date": "2026-09-03",
       "url": "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO No. 1349 DEL 3 DE SEPTIEMBRE DE 2026.pdf",
       "summary": "DECRETO No. 1349 DEL 3 DE SEPTIEMBRE DE 2026 Por medio del cual se da por terminado un encargo y se efectúa un nombramiento ordinario"
-    },
-    {
-      "id": "f9afcbcfc335bd41dd6148ac954074a9720154805db9bbeed6f18db6199a6d86",
-      "source": "DIAN",
-      "title": "Resolución 012971 de 2026",
-      "date": "2026-09-02",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 012971 de 02-09-2026.Pdf",
-      "summary": "Resolución 012971 de 2026 02/09/2026 Por la cual se justifica el proceso de contratación directa No.CD-00-072-2026, cuyo objeto es \"El Arrendamiento del local comercial, identificado con matrícula inmobiliaria No. 50C-1262114, ubicado en la Transversal 93 No. 64 G - 13, zona industrial del Barrio Álamos en la Ciudad de Bogotá D.C.\""
     },
     {
       "id": "751ef3fcf46ca64e59cf74d430d265c6995ec9269cb92949ee2c68be2193152f",
