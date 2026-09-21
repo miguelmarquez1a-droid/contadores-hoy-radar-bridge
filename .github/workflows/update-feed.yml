@@ -12,19 +12,14 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
+  group: radar-normativo
   cancel-in-progress: true
 
 jobs:
-  build-and-deploy:
+  actualizar-feed:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -41,10 +36,3 @@ jobs:
           git add docs/feed.json
           git diff --cached --quiet || git commit -m "Actualizar feed normativo"
           git push
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs
-      - name: Publicar GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
