@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-09-21T18:32:31.774491+00:00",
+  "generated_at": "2026-09-22T00:35:25.913708+00:00",
   "count": 69,
   "items": [
+    {
+      "id": "01f8de7a929c3148f1b9419de2e1d5f08c2d751b8fd709b1c587219d3aada86f",
+      "source": "DIAN",
+      "title": "Resolución 000120 de 2026",
+      "date": "2026-09-21",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000120 de 21-09-2026.Pdf",
+      "summary": "Resolución 000120 de 2026 21/09/2026 Por la cual se adecua el horario de atención al público del Despacho – Servicio al Ciudadano, de la Dirección Seccional Delegada de Impuestos y Aduanas de Puerto Carreño, desde el 21 de septiembre de 2026 hasta el 26 de octubre de 2026."
+    },
     {
       "id": "31851910a352e07cf3f5ea04886a2212a4ed10a01c1e7a4f1f6ea1fcd3418916",
       "source": "DIAN",
@@ -241,14 +249,6 @@
       "date": "2026-09-10",
       "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000337 de 10-09-2026.pdf",
       "summary": "Resolución 000337 de 2026 10/09/2026 Por la cual se establece, de manera especial, el horario de trabajo y de atención al público en la Dirección Seccional de Impuestos y Aduanas de Arauca para el día 25 de septiembre de 2026"
-    },
-    {
-      "id": "3a6f2e1331ea616b5eedd2cd9e41aced17201ac71c7ffb639c1adb7fcc99f1e1",
-      "source": "DIAN",
-      "title": "Resolución 000974 de 2026",
-      "date": "2026-09-09",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000974 de 09-09-2026.pdf",
-      "summary": "Resolución 000974 de 2026 09/09/2026 Por la cual se habilita como día laboral el 26 de septiembre de 2026 para unos servidores públicos comisionados mediante Autos Comisorios Tributarios N° 770 y 772 de fecha 07 de septiembre de 2026, adscritos a la División de Fiscalización y Liquidación Tributaria Intensiva y a la División de Fiscalización y Liquidación Tributaria Extensiva de la Dirección Seccional de Impuestos y Aduanas de Tunja"
     },
     {
       "id": "6ff5458dbd241a718009d74f5ec9e4a0fa50c52806625e9bc707b84f49bc4da1",
