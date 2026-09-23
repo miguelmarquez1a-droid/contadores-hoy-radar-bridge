@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T06:35:40.591689+00:00",
+  "generated_at": "2026-09-23T12:35:18.663282+00:00",
   "count": 70,
   "items": [
     {
@@ -9,6 +9,14 @@
       "date": "2026-09-22",
       "url": "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO No. 1432 DEL 22 DE SEPTIEMBRE DE 2026.pdf",
       "summary": "DECRETO No. 1432 DEL 22 DE SEPTIEMBRE DE 2026 Por el cual se modifica el artículo 5 del Decreto 661 de 2026 y se establece el régimen de transición aplicable a los contratos sindicales celebrados por entidades del sector público y prestadores de servicios de salud"
+    },
+    {
+      "id": "082642172fe20b6662f52ec54d89ffa6930063f5d1ef71169b9e15d6fb2a2720",
+      "source": "DIAN",
+      "title": "Resolución 000184 de 2026",
+      "date": "2026-09-21",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000184 de 21-09-2026.pdf",
+      "summary": "Resolución 000184 de 2026 21/09/2026 Por la cual se modifica temporalmente el horario laboral y de atención al público en la Dirección Seccional de Impuestos y Aduanas de Tumaco"
     },
     {
       "id": "01f8de7a929c3148f1b9419de2e1d5f08c2d751b8fd709b1c587219d3aada86f",
@@ -241,14 +249,6 @@
       "date": "2026-09-11",
       "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000987 de 11-09-2026.pdf",
       "summary": "Resolución 000987 de 2026 11/09/2026 Por la cual se habilitan como días laborales el sábado 12 y el domingo 13 de septiembre de 2026 para los servidores públicos comisionados mediante Documento de Autorización, Reconocimiento y Ordenación de Pago Comisión al Interior del País del 10 de septiembre de 2026 proferido el Despacho de la Dirección Seccional de Impuestos y Aduanas de Tunja"
-    },
-    {
-      "id": "90fc7599bb01f2138448f7ea306ec7d3ea252e31c9feb076b33654c8111b729e",
-      "source": "DIAN",
-      "title": "Resolución 013342 de 2026",
-      "date": "2026-09-10",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 013342 de 10-09-2026.pdf",
-      "summary": "Resolución 013342 de 2026 10/09/2026 Por la cual se justifica el proceso de contratación directa No. CD-00-076-2026, que tiene por objeto “Servicio de mantenimiento y calibración de la máquina universal de ensayos marca SHIMADZU para la Subdirección del Laboratorio Aduanero”."
     },
     {
       "id": "225ed1e02b6faeb282ab971dd72b443770d553e5626a504d927fa0ea2d8fd872",
