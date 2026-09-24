@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T00:36:17.723543+00:00",
+  "generated_at": "2026-09-24T06:35:24.676574+00:00",
   "count": 70,
   "items": [
     {
@@ -566,7 +566,7 @@
   "errors": [
     {
       "source": "CTCP",
-      "error": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.ctcp.gov.co/conceptos/2026\", waiting until \"domcontentloaded\"\n"
+      "error": "RuntimeError: Enlaces observados: Conceptos -> /conceptos/2026"
     }
   ]
 }
