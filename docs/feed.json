@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-09-28T06:39:42.517021+00:00",
+  "generated_at": "2026-09-28T12:38:29.058042+00:00",
   "count": 70,
   "items": [
+    {
+      "id": "0cd19d96b752a7ebdf59d227073c99dc11c79c908193fca0566c0c8eaef0ba96",
+      "source": "DIAN",
+      "title": "Resolución 000031 de 2026",
+      "date": "2026-09-25",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000031 de 25-09-2026.pdf",
+      "summary": "Resolución 000031 de 2026 25/09/2026 Por la cual se suspenden los términos de almacenamiento para la Dirección Seccional de Aduanas de Medellín, ante la Situación de Desastre de Carácter Nacional declarada mediante Decreto 1171 del 11 de agosto de 2026, y conforme al Decreto 1384 del 9 de septiembre de 2026."
+    },
     {
       "id": "b717dbc60fcc7428ce45672ef8b4f5c5dbc807a2a58d7960e41c3910188770a8",
       "source": "DIAN",
@@ -241,14 +249,6 @@
       "date": "2026-09-11",
       "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 013397 de 11-09-2026.pdf",
       "summary": "Resolución 013397 de 2026 11/09/2026 Por la cual se prorroga la suspensión de los términos prevista en la Resolución No. 012660 del 27 de agosto de 2026 para la Dirección Seccional de Impuestos y Aduanas de Pereira, ante la Situación de Desastre de Carácter Nacional declarada mediante Decreto 1171 del 11 de agosto de 2026 y el Estado de Emergencia Económica, Social y Ecológica declarado mediante Decreto 1261 del 19 de agosto de 2026."
-    },
-    {
-      "id": "3a104b26c3e17b8750c83caded6ff1cb0c01c414445879451c8382ce4b8a3cd1",
-      "source": "DIAN",
-      "title": "Resolución 003736 de 2026",
-      "date": "2026-09-11",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 003736 de 11-09-2026.pdf",
-      "summary": "Resolución 003736 de 2026 11/09/2026 Por la cual se declaran administrativamente hábiles los días 12 y 19 de septiembre de 2026 y se amplía el horario laboral para determinados funcionarios de la Dirección Seccional de Impuestos de Cali"
     },
     {
       "id": "4ceb476c6706ed3ab50bd0b30d23920d92476c20a238770d0b856ff50e5e6c17",
@@ -566,7 +566,7 @@
   "errors": [
     {
       "source": "CTCP",
-      "error": "RuntimeError: Enlaces observados: Conceptos -> /conceptos/2026"
+      "error": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.ctcp.gov.co/conceptos/2026\", waiting until \"domcontentloaded\"\n"
     }
   ]
 }
