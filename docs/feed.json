@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-09-29T12:38:42.628710+00:00",
-  "count": 77,
+  "generated_at": "2026-09-29T18:36:14.950807+00:00",
+  "count": 78,
   "items": [
+    {
+      "id": "3f06639c1f64dd9bbb18dddb409ae5ec1140b46334b037d956db2a9c629f21fd",
+      "source": "Presidencia – DAPRE",
+      "title": "DECRETO No. 1451 DEL 28 DE SEPTIEMBRE DE 2026",
+      "date": "2026-09-28",
+      "url": "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO No. 1451 DEL 28 DE SEPTIEMBRE DE 2026.pdf",
+      "summary": "DECRETO No. 1451 DEL 28 DE SEPTIEMBRE DE 2026 Por el cual se efectúa un nombramiento ordinario en la Unidad Administrativa Especial de Gestión Pensional y Contribuciones Parafiscales de la Protección Social-UGPP"
+    },
     {
       "id": "4c9476369d09bd7811f00fe4fd87aac5991a5c6cf1277b46555dd9d9ef628edd",
       "source": "Presidencia – DAPRE",
@@ -623,10 +631,6 @@
     {
       "source": "CTCP",
       "error": "RuntimeError: Enlaces observados: Conceptos -> /conceptos/2026"
-    },
-    {
-      "source": "Presidencia – DAPRE",
-      "error": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://dapre.presidencia.gov.co/normativa/decretos-2026/decretos-septiembre-2026\", waiting until \"domcontentloaded\"\n"
     }
   ]
 }
