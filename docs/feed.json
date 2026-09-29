@@ -1,7 +1,63 @@
 {
-  "generated_at": "2026-09-28T18:35:12.078146+00:00",
-  "count": 70,
+  "generated_at": "2026-09-29T00:38:00.218861+00:00",
+  "count": 77,
   "items": [
+    {
+      "id": "4c9476369d09bd7811f00fe4fd87aac5991a5c6cf1277b46555dd9d9ef628edd",
+      "source": "Presidencia – DAPRE",
+      "title": "DECRETO No. 1450 DEL 28 DE SEPTIEMBRE DE 2026",
+      "date": "2026-09-28",
+      "url": "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO No. 1450 DEL 28 DE SEPTIEMBRE DE 2026.pdf",
+      "summary": "DECRETO No. 1450 DEL 28 DE SEPTIEMBRE DE 2026 Por el cual se hace un nombramiento ordinario"
+    },
+    {
+      "id": "ca80579168181701e0f3875bfdf681c3e74147bbd142de119220d3a1780f527d",
+      "source": "Presidencia – DAPRE",
+      "title": "DECRETO No. 1448 DEL 28 DE SEPTIEMBRE DE 2026",
+      "date": "2026-09-28",
+      "url": "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO No. 1448 DEL 28 DE SEPTIEMBRE DE 2026.pdf",
+      "summary": "DECRETO No. 1448 DEL 28 DE SEPTIEMBRE DE 2026 \"Por el cual se modifican los numerales 6°, 7 y 8° del artículo 2.2.6.1.1.7 y se adicionan parágrafos transitorios a los artículos 2.2.6.1.2.4.1, 2.2.6.3.7 Y 2.2.6.3.8 del Decreto 1077 de 2015\""
+    },
+    {
+      "id": "fbb34f3cff5530b0778cefdb7d59b33d041c2a24f67d141a93e181fb0005870d",
+      "source": "Presidencia – DAPRE",
+      "title": "DECRETO No. 1446 DEL 28 DE SEPTIEMBRE DE 2026",
+      "date": "2026-09-28",
+      "url": "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO No. 1446 DEL 28 DE SEPTIEMBRE DE 2026.pdf",
+      "summary": "DECRETO No. 1446 DEL 28 DE SEPTIEMBRE DE 2026 \"Por el cual se modifican los artículos 2.2.3.1.2.1 y 2.2.3.1.2.4 del Decreto 1069 de 2015, Único Reglamentario del Sector Justicia y del Derecho, referente a las reglas de reparto de la acción de tutela\""
+    },
+    {
+      "id": "ca8d4d1429b82f28ae8c89dca3498a415355a83f5a8ee7d540f5d988bf100869",
+      "source": "Presidencia – DAPRE",
+      "title": "DECRETO No. 1445 DEL 28 DE SEPTIEMBRE DE 2026",
+      "date": "2026-09-28",
+      "url": "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO No. 1445 DEL 28 DE SEPTIEMBRE DE 2026.pdf",
+      "summary": "DECRETO No. 1445 DEL 28 DE SEPTIEMBRE DE 2026 Por el cual se acepta la renuncia de la Notaria Única del Circulo Notarial de Copacabana -Antíoquia"
+    },
+    {
+      "id": "10050a54976d7eb633a10e89bced6c8a807082abf505867bfb9d4f9b60d4822f",
+      "source": "Presidencia – DAPRE",
+      "title": "DECRETO No. 1444 DEL 28 DE SEPTIEMBRE DE 2026",
+      "date": "2026-09-28",
+      "url": "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO No. 1444 DEL 28 DE SEPTIEMBRE DE 2026.pdf",
+      "summary": "DECRETO No. 1444 DEL 28 DE SEPTIEMBRE DE 2026 \"Por el cual se prohíbe la Importacion de bienes producidos total o parcialmente mediante trabajo forzoso u obligatorio, y se dictan otras disposiciones\""
+    },
+    {
+      "id": "76cc3bf85ce4e171abbf495f4a229d0b57aad5188e4a97137ae87af862440bd6",
+      "source": "Presidencia – DAPRE",
+      "title": "DECRETO No. 1443 DEL 28 DE SEPTIEMBRE DE 2026",
+      "date": "2026-09-28",
+      "url": "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO No. 1443 DEL 28 DE SEPTIEMBRE DE 2026.pdf",
+      "summary": "DECRETO No. 1443 DEL 28 DE SEPTIEMBRE DE 2026 Por el cual se hace una designación"
+    },
+    {
+      "id": "836f2c126d8e1c93771c540b59da3cde0ea57490c1b795068c3afdb6a01d66ca",
+      "source": "Presidencia – DAPRE",
+      "title": "DECRETO No. 1442 DEL 28 DE SEPTIEMBRE DE 2026",
+      "date": "2026-09-28",
+      "url": "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO No. 1442 DEL 28 DE SEPTIEMBRE DE 2026.pdf",
+      "summary": "DECRETO No. 1442 DEL 28 DE SEPTIEMBRE DE 2026 \"Por el cual se hace una designación\""
+    },
     {
       "id": "0cd19d96b752a7ebdf59d227073c99dc11c79c908193fca0566c0c8eaef0ba96",
       "source": "DIAN",
@@ -17,6 +73,14 @@
       "date": "2026-09-23",
       "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 001259 de 23-09-2026.pdf",
       "summary": "Resolución 001259 de 2026 23/09/2026 Por medio de la cual se habilita la jornada laboral de la Dirección Seccional de Impuestos y Aduanas de Montería."
+    },
+    {
+      "id": "8d5c3b07d25ff793162ea01366968f5dcb6a2addef77af6d1111a8932a2b22a4",
+      "source": "DIAN",
+      "title": "Resolución 000350 de 2026",
+      "date": "2026-09-23",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000350 de 23-09-2026.pdf",
+      "summary": "Resolución 000350 de 2026 23/09/2026 Por la cual se modifica parcialmente la Resolución 259 de 11 octubre de 2022, mediante la cual se estableció el horario laboral y de atención público para la Dirección Seccional de Impuestos y Aduanas de Arauca"
     },
     {
       "id": "8a78393ec147fb3d52c779b38b9d163d350cab840d0d41d65c8007d17d5d9138",
@@ -249,14 +313,6 @@
       "date": "2026-09-11",
       "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 013397 de 11-09-2026.pdf",
       "summary": "Resolución 013397 de 2026 11/09/2026 Por la cual se prorroga la suspensión de los términos prevista en la Resolución No. 012660 del 27 de agosto de 2026 para la Dirección Seccional de Impuestos y Aduanas de Pereira, ante la Situación de Desastre de Carácter Nacional declarada mediante Decreto 1171 del 11 de agosto de 2026 y el Estado de Emergencia Económica, Social y Ecológica declarado mediante Decreto 1261 del 19 de agosto de 2026."
-    },
-    {
-      "id": "4ceb476c6706ed3ab50bd0b30d23920d92476c20a238770d0b856ff50e5e6c17",
-      "source": "DIAN",
-      "title": "Resolución 000987 de 2026",
-      "date": "2026-09-11",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000987 de 11-09-2026.pdf",
-      "summary": "Resolución 000987 de 2026 11/09/2026 Por la cual se habilitan como días laborales el sábado 12 y el domingo 13 de septiembre de 2026 para los servidores públicos comisionados mediante Documento de Autorización, Reconocimiento y Ordenación de Pago Comisión al Interior del País del 10 de septiembre de 2026 proferido el Despacho de la Dirección Seccional de Impuestos y Aduanas de Tunja"
     },
     {
       "id": "6ff5458dbd241a718009d74f5ec9e4a0fa50c52806625e9bc707b84f49bc4da1",
