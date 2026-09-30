@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T12:41:53.133062+00:00",
+  "generated_at": "2026-09-30T18:34:49.320463+00:00",
   "count": 85,
   "items": [
     {
@@ -11,12 +11,28 @@
       "summary": "Resolución 014214 de 2026 29/09/2026 Por la cual se justifica el proceso de contratación directa cuyo objeto es \"El arrendamiento del local comercial, identificado con matrícula inmobiliaria No. 50C-1262113, ubicado en la Transversal 93 No 64 G - 15, zona industrial del barrio Álamos en la ciudad de Bogotá D.C."
     },
     {
+      "id": "bcd28746f5abde5e07065a7d509c2c206f20b7ba64f8404d63691f501c3a0cf7",
+      "source": "DIAN",
+      "title": "Resolución 002254 de 2026",
+      "date": "2026-09-29",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 002254 de 29-09-2026.pdf",
+      "summary": "Resolución 002254 de 2026 29/09/2026 Por la cual se habilita temporalmente la modalidad de trabajo en casa para los Servidores Públicos ubicados en la Dirección Seccional de Impuestos y Aduanas de Pereira de la UAE Dirección de Impuestos y Aduanas Nacionales – DIAN"
+    },
+    {
       "id": "9748bdaa062fc00bbf3daaf5742c7e9fe5cfb073700423c10ac94b09623be459",
       "source": "DIAN",
       "title": "Resolución 000437 de 2026",
       "date": "2026-09-29",
       "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000437 de 29-09-2026.pdf",
       "summary": "Resolución 000437 de 2026 29/09/2026 Por medio del cual se modifica temporalmente el horario de trabajo y atención al público para el desarrollo de integración recreativa y cultural denominada “momentos que unen DIAN 2026” en la Dirección Seccional de Impuestos y Aduanas de Quibdó"
+    },
+    {
+      "id": "9208a07291d3591bdd223ac0fa60471453330bba380576c7bee37b64af9fe209",
+      "source": "DIAN",
+      "title": "Resolución 000061 de 2026",
+      "date": "2026-09-29",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000061 de 29-09-2026.pdf",
+      "summary": "Resolución 000061 de 2026 29/09/2026 Por medio de la cual se modifica de forma transitoria el horario de atención al público y la jornada laboral de la Dirección Seccional Delegada de Impuestos y Aduanas de Inírida para el dos (2) de octubre de dos mil veintiséis (2026)"
     },
     {
       "id": "186e4225863497d9f025ac4b69ec9a386e73dbc411741b084f3c87131c06d381",
@@ -355,28 +371,12 @@
       "summary": "DECRETO No. 1405 DEL 17 DE SEPTIEMBRE DE 2026 Por el cual se acepta la renuncia del Notario Sesenta y Tres (63) del Círculo Notarial de Bogotá D. C."
     },
     {
-      "id": "c31d8ba1b8e808e0a1982f90f88f35f90f02a26fddd4332fd3f3e437045beacb",
-      "source": "DIAN",
-      "title": "Resolución 000029 de 2026",
-      "date": "2026-09-16",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000029 de 16-09-2026.Pdf",
-      "summary": "Resolución 000029 de 2026 16/09/2026 Por la cual se adoptan medidas temporales sobre términos, trámites y actuaciones administrativas para la Dirección Seccional de Impuestos y Aduanas de Buenaventura, ante la Situación de Desastre de Carácter Nacional declarada mediante Decreto 1171 del 11 de agosto de 2026 y el Estado de Emergencia Económica, Social y Ecológica declarado mediante Decreto 1261 del 19 de agosto de 2026."
-    },
-    {
       "id": "f264e00a7de82c2c8a3b12303b64b62a8184f3f4f903945010db13b5f76c4dac",
       "source": "Presidencia – DAPRE",
       "title": "DECRETO No. 1395 DEL 15 DE SEPTIEMBRE DE 2026",
       "date": "2026-09-15",
       "url": "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO No. 1395 DEL 15 DE SEPTIEMBRE DE 2026.pdf",
       "summary": "DECRETO No. 1395 DEL 15 DE SEPTIEMBRE DE 2026 Por medio del cual se acepta una renuncia y se hace un nombramiento ordinario"
-    },
-    {
-      "id": "66e4e14009c7fa2ffd6a2cc89f41f73fcca17ae8bd8383d3078134c61745973e",
-      "source": "DIAN",
-      "title": "Resolución 000059 de 2026",
-      "date": "2026-09-14",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000059 de 14-09-2026.pdf",
-      "summary": "Resolución 000059 de 2026 14/09/2026 Por medio de la cual se modifica de forma transitoria el horario de atención al público y la jornada laboral de la Dirección Seccional Delegada de Impuestos y Aduanas de Inírida para el dieciocho (18) de septiembre de dos mil veintiséis (2026)"
     },
     {
       "id": "e4726255fded9c6e2f73c89cae77cbf65df53c92d98d78b6607b618c483c224e",
