@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T18:34:49.320463+00:00",
+  "generated_at": "2026-10-01T00:41:40.354611+00:00",
   "count": 85,
   "items": [
     {
@@ -97,6 +97,14 @@
       "date": "2026-09-29",
       "url": "https://www.dian.gov.co/normatividad/Normatividad/Circular 006147 de 29-09-2026.Pdf",
       "summary": "Circular 006147 de 2026 29/09/2026 Gravámenes Ad-Valórem aplicables a productos agropecuarios de referencia, sus sustitutos, productos agroindustriales o subproductos"
+    },
+    {
+      "id": "23a6b179e3f07718892a13fd41511c647a380f85285203df3cc20fc444540585",
+      "source": "DIAN",
+      "title": "Resolución 000323 de 2026",
+      "date": "2026-09-28",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000323 de 28-09-2026.pdf",
+      "summary": "Resolución 000323 de 2026 28/09/2026 Por medio del cual se fija horario especial de trabajo para el día 02 de octubre de 2026 en la Dirección Seccional de Impuestos y Aduanas de San Andrés."
     },
     {
       "id": "3f06639c1f64dd9bbb18dddb409ae5ec1140b46334b037d956db2a9c629f21fd",
@@ -209,14 +217,6 @@
       "date": "2026-09-21",
       "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000120 de 21-09-2026.Pdf",
       "summary": "Resolución 000120 de 2026 21/09/2026 Por la cual se adecua el horario de atención al público del Despacho – Servicio al Ciudadano, de la Dirección Seccional Delegada de Impuestos y Aduanas de Puerto Carreño, desde el 21 de septiembre de 2026 hasta el 26 de octubre de 2026."
-    },
-    {
-      "id": "31851910a352e07cf3f5ea04886a2212a4ed10a01c1e7a4f1f6ea1fcd3418916",
-      "source": "DIAN",
-      "title": "Resolución 000119 de 2026",
-      "date": "2026-09-17",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000119 de 17-09-2026.Pdf",
-      "summary": "Resolución 000119 de 2026 17/09/2026 Por la cual se establece el horario de atención al público del día 18 de septiembre de 2026 en la Dirección Seccional Delegada de Impuestos y Aduanas de Puerto Carreño."
     },
     {
       "id": "b5326b9c78e14fe082d7b46396f393a16187cf0d3b05710bd432a34fadc86a46",
@@ -687,6 +687,10 @@
     {
       "source": "CTCP",
       "error": "RuntimeError: Enlaces observados: Conceptos -> /conceptos/2026"
+    },
+    {
+      "source": "Presidencia – DAPRE",
+      "error": "RuntimeError: Enlaces observados: ir al contenido -> #contentBox |  -> https://www.gov.co |  -> javascript: {} |  -> / |  -> / | INICIO -> /Paginas/home.aspx | Transparencia y acceso a la información pública -> /transparencia-acceso-informacion-publica | Atención y Servicios a la Ciudadanía -> /AtencionCiudadana | Peticiones, Sugerencias, Quejas, Reclamos -> /AtencionCiudadana/sistema-psqr/peticiones-sugerencias-quejas-reclamos | Seguimiento a Peticiones, Sugerencias, Quejas, Reclamos -> /AtencionCiudadana/Paginas/seguimiento-psqrd.aspx | Trámites y Servicios -> /AtencionCiudadana/tramites-servicios-dapre/tramites-servicios | Instrumentos de la Gestión de Información Pública -> /AtencionCiudadana/instrumentos-gestion-informacion-publica | Datos Abiertos -> /AtencionCiudadana/datos-abiertos | Notificaciones por aviso -> /AtencionCiudadana/notificaciones-por-aviso | Política Institucional de Servicio a la Ciudadanía -> /dapre/DocumentosSIGEPRE/D-AU-03_Politica_Institucional_Servicio_Ciudadania.pdf | Notificaciones judiciales -> /AtencionCiudadana/notificaciones-judiciales | Oferta de empleo -> /AtencionCiudadana/ofertas-empleo | Carta de trato digno a la ciudadanía -> /AtencionCiudadana/carta-trato-digno-ciudadania | Portafolio de Servicios del DAPRE -> /AtencionCiudadana/portafolio-de-servicios | Glosario -> /AtencionCiudadana/glosario | Preguntas Frecuentes -> /AtencionCiudadana/preguntas-frecuentes | Calendario -> /AtencionCiudadana/calendario | Ayudas para la navegación -> /AtencionCiudadana/ayudas-navegacion | Vinculación Jóvenes en el DAPRE -> /AtencionCiudadana/vinculacion-jovenes-dapre | Participa -> /AtencionCiudadana/participacion-ciudadana"
     }
   ]
 }
