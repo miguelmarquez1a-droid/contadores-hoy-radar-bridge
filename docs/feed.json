@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T18:39:08.626066+00:00",
+  "generated_at": "2026-10-06T00:43:31.648228+00:00",
   "count": 85,
   "items": [
     {
@@ -690,7 +690,7 @@
     },
     {
       "source": "Presidencia – DAPRE",
-      "error": "RuntimeError: Enlaces observados: ir al contenido -> #contentBox |  -> https://www.gov.co |  -> javascript: {} |  -> / |  -> / | INICIO -> /Paginas/home.aspx | Transparencia y acceso a la información pública -> /transparencia-acceso-informacion-publica | Atención y Servicios a la Ciudadanía -> /AtencionCiudadana | Peticiones, Sugerencias, Quejas, Reclamos -> /AtencionCiudadana/sistema-psqr/peticiones-sugerencias-quejas-reclamos | Seguimiento a Peticiones, Sugerencias, Quejas, Reclamos -> /AtencionCiudadana/Paginas/seguimiento-psqrd.aspx | Trámites y Servicios -> /AtencionCiudadana/tramites-servicios-dapre/tramites-servicios | Instrumentos de la Gestión de Información Pública -> /AtencionCiudadana/instrumentos-gestion-informacion-publica | Datos Abiertos -> /AtencionCiudadana/datos-abiertos | Notificaciones por aviso -> /AtencionCiudadana/notificaciones-por-aviso | Política Institucional de Servicio a la Ciudadanía -> /dapre/DocumentosSIGEPRE/D-AU-03_Politica_Institucional_Servicio_Ciudadania.pdf | Notificaciones judiciales -> /AtencionCiudadana/notificaciones-judiciales | Oferta de empleo -> /AtencionCiudadana/ofertas-empleo | Carta de trato digno a la ciudadanía -> /AtencionCiudadana/carta-trato-digno-ciudadania | Portafolio de Servicios del DAPRE -> /AtencionCiudadana/portafolio-de-servicios | Glosario -> /AtencionCiudadana/glosario | Preguntas Frecuentes -> /AtencionCiudadana/preguntas-frecuentes | Calendario -> /AtencionCiudadana/calendario | Ayudas para la navegación -> /AtencionCiudadana/ayudas-navegacion | Vinculación Jóvenes en el DAPRE -> /AtencionCiudadana/vinculacion-jovenes-dapre | Participa -> /AtencionCiudadana/participacion-ciudadana"
+      "error": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://dapre.presidencia.gov.co/normativa/decretos-2026/decretos-octubre-2026\", waiting until \"domcontentloaded\"\n"
     }
   ]
 }
