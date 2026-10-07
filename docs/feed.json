@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T18:36:24.449539+00:00",
+  "generated_at": "2026-10-07T00:44:20.215823+00:00",
   "count": 85,
   "items": [
     {
@@ -684,10 +684,6 @@
     }
   ],
   "errors": [
-    {
-      "source": "DIAN",
-      "error": "Error: Page.goto: net::ERR_CONNECTION_RESET at https://www.dian.gov.co/normatividad/Paginas/Resoluciones.aspx\nCall log:\n  - navigating to \"https://www.dian.gov.co/normatividad/Paginas/Resoluciones.aspx\", waiting until \"domcontentloaded\"\n"
-    },
     {
       "source": "CTCP",
       "error": "RuntimeError: Enlaces observados: Conceptos -> /conceptos/2026"
