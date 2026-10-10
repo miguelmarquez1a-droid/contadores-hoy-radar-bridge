@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T00:44:22.399957+00:00",
+  "generated_at": "2026-10-10T06:38:25.547993+00:00",
   "count": 85,
   "items": [
     {
@@ -686,7 +686,7 @@
   "errors": [
     {
       "source": "CTCP",
-      "error": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.ctcp.gov.co/conceptos/2026\", waiting until \"domcontentloaded\"\n"
+      "error": "RuntimeError: Enlaces observados: Conceptos -> /conceptos/2026"
     },
     {
       "source": "Presidencia – DAPRE",
