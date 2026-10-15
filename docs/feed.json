@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-10-15T11:35:02.274019+00:00",
+  "generated_at": "2026-10-15T17:05:00.483094+00:00",
   "count": 85,
   "items": [
+    {
+      "id": "8a8143c555db1c8a4e9e15ec9b14447bf24334bf5473a068985a863888d789e3",
+      "source": "DIAN",
+      "title": "Circular 006161 de 2026",
+      "date": "2026-10-15",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Circular 006161 de 15-10-2026.Pdf",
+      "summary": "Circular 006161 de 2026 15/10/2026 Gravámenes Ad-Valórem aplicables a productos agropecuarios de referencia, sus sustitutos, productos agroindustriales o subproductos"
+    },
     {
       "id": "d5ff3b8face49ba3e20b4edbb902173a75e851cc5011461ffb84f2e2894f4f54",
       "source": "DIAN",
@@ -673,14 +681,6 @@
       "date": "2026-06-10",
       "url": "https://www.dian.gov.co/normatividad/Normatividad/Circular 006029 de 10-06-2026.Pdf",
       "summary": "Circular 006029 de 2026 10/06/2026 Gravámenes Ad-Valórem aplicables a productos agropecuarios de referencia, sus sustitutos, productos agroindustriales o subproductos"
-    },
-    {
-      "id": "a5fb23befa9d26e7fe043798d74d3251c800c99cf3176a7c2871f936f164768e",
-      "source": "DIAN",
-      "title": "Circular 006011 de 2026",
-      "date": "2026-05-29",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Circular 006011 de 29-05-2026.pdf",
-      "summary": "Circular 006011 de 2026 29/05/2026 Gravámenes Ad-Valórem aplicables a productos agropecuarios de referencia, sus sustitutos, productos agroindustriales o subproductos"
     }
   ],
   "errors": [
