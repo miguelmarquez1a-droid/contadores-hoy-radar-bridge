@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-10-21T17:16:10.036227+00:00",
+  "generated_at": "2026-10-21T21:46:05.342779+00:00",
   "count": 85,
   "items": [
+    {
+      "id": "892e3532fad8255d9fc874a1d6cca43c3c8add088dc99f6fcc78d8ec38cf493c",
+      "source": "DIAN",
+      "title": "Resolución 000133 de 2026",
+      "date": "2026-10-21",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000133 de 21-10-2026.Pdf",
+      "summary": "Resolución 000133 de 2026 21/10/2026 Por la cual se adecua el horario de atención al público del día 23 de octubre de 2026 en la Dirección Seccional Delegada de Impuestos y Aduanas de Puerto Carreño."
+    },
     {
       "id": "8a8143c555db1c8a4e9e15ec9b14447bf24334bf5473a068985a863888d789e3",
       "source": "DIAN",
@@ -209,14 +217,6 @@
       "date": "2026-09-22",
       "url": "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO No. 1432 DEL 22 DE SEPTIEMBRE DE 2026.pdf",
       "summary": "DECRETO No. 1432 DEL 22 DE SEPTIEMBRE DE 2026 Por el cual se modifica el artículo 5 del Decreto 661 de 2026 y se establece el régimen de transición aplicable a los contratos sindicales celebrados por entidades del sector público y prestadores de servicios de salud"
-    },
-    {
-      "id": "082642172fe20b6662f52ec54d89ffa6930063f5d1ef71169b9e15d6fb2a2720",
-      "source": "DIAN",
-      "title": "Resolución 000184 de 2026",
-      "date": "2026-09-21",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000184 de 21-09-2026.pdf",
-      "summary": "Resolución 000184 de 2026 21/09/2026 Por la cual se modifica temporalmente el horario laboral y de atención al público en la Dirección Seccional de Impuestos y Aduanas de Tumaco"
     },
     {
       "id": "01f8de7a929c3148f1b9419de2e1d5f08c2d751b8fd709b1c587219d3aada86f",
