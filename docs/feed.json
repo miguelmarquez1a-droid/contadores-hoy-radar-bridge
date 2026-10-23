@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-10-23T17:15:47.603161+00:00",
+  "generated_at": "2026-10-23T21:37:34.472839+00:00",
   "count": 85,
   "items": [
+    {
+      "id": "ca7760b57a59d366561090983f8c2337085379a8bc4b0bedd3c78bc211a262de",
+      "source": "DIAN",
+      "title": "Resolución 004251 de 2026",
+      "date": "2026-10-23",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 004251 de 23-10-2026.pdf",
+      "summary": "Resolución 004251 de 2026 23/10/2026 Por la cual se declaran administrativamente hábiles unos días sábados y se amplía el horario laboral para funcionarios de la División de Recaudo y Cobranzas de la Dirección Seccional de Impuestos de Cali"
+    },
+    {
+      "id": "ea29d04d76152dd979a53c971bccb6d0cabfc453e22d9ea9e05124d0332c2356",
+      "source": "DIAN",
+      "title": "Resolución 004248 de 2026",
+      "date": "2026-10-23",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 004248 de 23-10-2026.pdf",
+      "summary": "Resolución 004248 de 2026 23/10/2026 Por la cual se declaran administrativamente hábiles unos días sábados y se amplía el horario laboral para funcionarios del Grupo Interno de Trabajo de Formalización Tributaria de la Dirección Seccional de Impuestos de Cali"
+    },
     {
       "id": "892e3532fad8255d9fc874a1d6cca43c3c8add088dc99f6fcc78d8ec38cf493c",
       "source": "DIAN",
@@ -203,28 +219,12 @@
       "summary": "Resolución 001259 de 2026 23/09/2026 Por medio de la cual se habilita la jornada laboral de la Dirección Seccional de Impuestos y Aduanas de Montería."
     },
     {
-      "id": "8d5c3b07d25ff793162ea01366968f5dcb6a2addef77af6d1111a8932a2b22a4",
-      "source": "DIAN",
-      "title": "Resolución 000350 de 2026",
-      "date": "2026-09-23",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000350 de 23-09-2026.pdf",
-      "summary": "Resolución 000350 de 2026 23/09/2026 Por la cual se modifica parcialmente la Resolución 259 de 11 octubre de 2022, mediante la cual se estableció el horario laboral y de atención público para la Dirección Seccional de Impuestos y Aduanas de Arauca"
-    },
-    {
       "id": "8a78393ec147fb3d52c779b38b9d163d350cab840d0d41d65c8007d17d5d9138",
       "source": "Presidencia – DAPRE",
       "title": "DECRETO No. 1432 DEL 22 DE SEPTIEMBRE DE 2026",
       "date": "2026-09-22",
       "url": "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO No. 1432 DEL 22 DE SEPTIEMBRE DE 2026.pdf",
       "summary": "DECRETO No. 1432 DEL 22 DE SEPTIEMBRE DE 2026 Por el cual se modifica el artículo 5 del Decreto 661 de 2026 y se establece el régimen de transición aplicable a los contratos sindicales celebrados por entidades del sector público y prestadores de servicios de salud"
-    },
-    {
-      "id": "01f8de7a929c3148f1b9419de2e1d5f08c2d751b8fd709b1c587219d3aada86f",
-      "source": "DIAN",
-      "title": "Resolución 000120 de 2026",
-      "date": "2026-09-21",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000120 de 21-09-2026.Pdf",
-      "summary": "Resolución 000120 de 2026 21/09/2026 Por la cual se adecua el horario de atención al público del Despacho – Servicio al Ciudadano, de la Dirección Seccional Delegada de Impuestos y Aduanas de Puerto Carreño, desde el 21 de septiembre de 2026 hasta el 26 de octubre de 2026."
     },
     {
       "id": "b5326b9c78e14fe082d7b46396f393a16187cf0d3b05710bd432a34fadc86a46",
