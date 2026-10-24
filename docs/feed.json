@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T21:37:34.472839+00:00",
+  "generated_at": "2026-10-24T04:41:42.878745+00:00",
   "count": 85,
   "items": [
     {
@@ -690,7 +690,7 @@
     },
     {
       "source": "Presidencia – DAPRE",
-      "error": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://dapre.presidencia.gov.co/normativa/decretos-2026/decretos-octubre-2026\", waiting until \"domcontentloaded\"\n"
+      "error": "RuntimeError: Enlaces observados: "
     }
   ]
 }
