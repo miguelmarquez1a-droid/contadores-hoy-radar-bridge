@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T13:09:44.935615+00:00",
+  "generated_at": "2026-10-26T22:42:38.413914+00:00",
   "count": 85,
   "items": [
     {
@@ -17,6 +17,14 @@
       "date": "2026-10-23",
       "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 004248 de 23-10-2026.pdf",
       "summary": "Resolución 004248 de 2026 23/10/2026 Por la cual se declaran administrativamente hábiles unos días sábados y se amplía el horario laboral para funcionarios del Grupo Interno de Trabajo de Formalización Tributaria de la Dirección Seccional de Impuestos de Cali"
+    },
+    {
+      "id": "486fed988d2318b6f09e1ebc4e6af45e04def3e80f9f197f121528b7bb1eb476",
+      "source": "DIAN",
+      "title": "Resolución 001364 de 2026",
+      "date": "2026-10-23",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolucion-001364-23-10-2026.pdf",
+      "summary": "Resolución 001364 de 2026 23/10/2026 Por medio de la cual se habilita la jornada laboral de la Dirección Seccional de Impuestos y Aduanas de Montería."
     },
     {
       "id": "892e3532fad8255d9fc874a1d6cca43c3c8add088dc99f6fcc78d8ec38cf493c",
@@ -209,14 +217,6 @@
       "date": "2026-09-25",
       "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000031 de 25-09-2026.pdf",
       "summary": "Resolución 000031 de 2026 25/09/2026 Por la cual se suspenden los términos de almacenamiento para la Dirección Seccional de Aduanas de Medellín, ante la Situación de Desastre de Carácter Nacional declarada mediante Decreto 1171 del 11 de agosto de 2026, y conforme al Decreto 1384 del 9 de septiembre de 2026."
-    },
-    {
-      "id": "b717dbc60fcc7428ce45672ef8b4f5c5dbc807a2a58d7960e41c3910188770a8",
-      "source": "DIAN",
-      "title": "Resolución 001259 de 2026",
-      "date": "2026-09-23",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 001259 de 23-09-2026.pdf",
-      "summary": "Resolución 001259 de 2026 23/09/2026 Por medio de la cual se habilita la jornada laboral de la Dirección Seccional de Impuestos y Aduanas de Montería."
     },
     {
       "id": "8a78393ec147fb3d52c779b38b9d163d350cab840d0d41d65c8007d17d5d9138",
