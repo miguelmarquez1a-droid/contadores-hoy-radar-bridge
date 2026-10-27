@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-10-27T12:18:17.989774+00:00",
+  "generated_at": "2026-10-27T22:18:30.994274+00:00",
   "count": 85,
   "items": [
+    {
+      "id": "af475b79b4850700d6392f3a4aca78b6c9400d52b727f8de284fc8befc31a700",
+      "source": "DIAN",
+      "title": "Resolución 000084 de 2026",
+      "date": "2026-10-26",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000084 de 26-10-2026.pdf",
+      "summary": "Resolución 000084 de 2026 26/10/2026 Por medio de la cual se establece el horario de trabajo flexible para los servidores públicos de la Dirección seccional Delegada de Impuestos y Aduanas de Pamplona"
+    },
     {
       "id": "ca7760b57a59d366561090983f8c2337085379a8bc4b0bedd3c78bc211a262de",
       "source": "DIAN",
@@ -209,14 +217,6 @@
       "date": "2026-09-28",
       "url": "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO No. 1442 DEL 28 DE SEPTIEMBRE DE 2026.pdf",
       "summary": "DECRETO No. 1442 DEL 28 DE SEPTIEMBRE DE 2026 \"Por el cual se hace una designación\""
-    },
-    {
-      "id": "0cd19d96b752a7ebdf59d227073c99dc11c79c908193fca0566c0c8eaef0ba96",
-      "source": "DIAN",
-      "title": "Resolución 000031 de 2026",
-      "date": "2026-09-25",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000031 de 25-09-2026.pdf",
-      "summary": "Resolución 000031 de 2026 25/09/2026 Por la cual se suspenden los términos de almacenamiento para la Dirección Seccional de Aduanas de Medellín, ante la Situación de Desastre de Carácter Nacional declarada mediante Decreto 1171 del 11 de agosto de 2026, y conforme al Decreto 1384 del 9 de septiembre de 2026."
     },
     {
       "id": "8a78393ec147fb3d52c779b38b9d163d350cab840d0d41d65c8007d17d5d9138",
