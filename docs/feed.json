@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-10-29T13:08:03.267590+00:00",
+  "generated_at": "2026-10-29T22:48:06.997956+00:00",
   "count": 85,
   "items": [
+    {
+      "id": "cad8eb2e4fcd1645443361a7c8a8f6561942374efb0cc3f9c9a73f18b7909744",
+      "source": "DIAN",
+      "title": "Resolución 003390 de 2026",
+      "date": "2026-10-26",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 003390 de 26-10-2026.pdf",
+      "summary": "Resolución 003390 de 2026 26/10/2026 Por la cual se establecen los horarios de trabajo de los funcionarios y de atención al público en la Dirección Seccional de Impuestos de Cúcuta."
+    },
     {
       "id": "af475b79b4850700d6392f3a4aca78b6c9400d52b727f8de284fc8befc31a700",
       "source": "DIAN",
@@ -145,14 +153,6 @@
       "date": "2026-09-29",
       "url": "https://www.dian.gov.co/normatividad/Normatividad/Circular 006147 de 29-09-2026.Pdf",
       "summary": "Circular 006147 de 2026 29/09/2026 Gravámenes Ad-Valórem aplicables a productos agropecuarios de referencia, sus sustitutos, productos agroindustriales o subproductos"
-    },
-    {
-      "id": "23a6b179e3f07718892a13fd41511c647a380f85285203df3cc20fc444540585",
-      "source": "DIAN",
-      "title": "Resolución 000323 de 2026",
-      "date": "2026-09-28",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000323 de 28-09-2026.pdf",
-      "summary": "Resolución 000323 de 2026 28/09/2026 Por medio del cual se fija horario especial de trabajo para el día 02 de octubre de 2026 en la Dirección Seccional de Impuestos y Aduanas de San Andrés."
     },
     {
       "id": "3f06639c1f64dd9bbb18dddb409ae5ec1140b46334b037d956db2a9c629f21fd",
