@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T12:38:40.143829+00:00",
+  "generated_at": "2026-10-31T21:39:15.335317+00:00",
   "count": 85,
   "items": [
     {
@@ -9,6 +9,14 @@
       "date": "2026-10-30",
       "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 015621 de 30-10-2026.pdf",
       "summary": "Resolución 015621 de 2026 30/10/2026 Por la cual se justifica el proceso de contratación directa cuyo objeto es el “Arrendamiento del local comercial 165, identificado con matrícula inmobiliaria No. 50S-1101954, ubicado en el Centro Comercial Ciudad Tunal de Bogotá D.C.”"
+    },
+    {
+      "id": "a30e9510822fdc4bf78d168ff6f853c84a8821684d5fc45e62ec996e70369df1",
+      "source": "DIAN",
+      "title": "Circular 006179 de 2026",
+      "date": "2026-10-29",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Circular 006179 de 29-10-2026.pdf",
+      "summary": "Circular 006179 de 2026 29/10/2026 Gravámenes Ad-Valórem aplicables a productos agropecuarios de referencia, sus sustitutos, productos agroindustriales o subproductos"
     },
     {
       "id": "921bea3df5fa63134dde8b1187fdf6c520131b3c57c1e910647803974f7eb798",
@@ -673,14 +681,6 @@
       "date": "2026-06-12",
       "url": "https://www.dian.gov.co/normatividad/Normatividad/Circular 000004 de 12-06-2026.Pdf",
       "summary": "Circular 000004 de 2026 12/06/2026 Aplicación tarifa del cero por ciento (0%) del Impuesto de Timbre Nacional, a partir del 1° de enero de 2026 y reintegro de valores retenidos."
-    },
-    {
-      "id": "eb65ebca2d041acc53091f00df006488e698c0d741211321163f8f307f81a34e",
-      "source": "DIAN",
-      "title": "Circular 006029 de 2026",
-      "date": "2026-06-10",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Circular 006029 de 10-06-2026.Pdf",
-      "summary": "Circular 006029 de 2026 10/06/2026 Gravámenes Ad-Valórem aplicables a productos agropecuarios de referencia, sus sustitutos, productos agroindustriales o subproductos"
     }
   ],
   "errors": [
