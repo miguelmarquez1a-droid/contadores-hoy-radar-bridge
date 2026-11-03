@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T14:21:42.058200+00:00",
+  "generated_at": "2026-11-03T23:26:30.121480+00:00",
   "count": 85,
   "items": [
     {
@@ -9,6 +9,14 @@
       "date": "2026-10-30",
       "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 015621 de 30-10-2026.pdf",
       "summary": "Resolución 015621 de 2026 30/10/2026 Por la cual se justifica el proceso de contratación directa cuyo objeto es el “Arrendamiento del local comercial 165, identificado con matrícula inmobiliaria No. 50S-1101954, ubicado en el Centro Comercial Ciudad Tunal de Bogotá D.C.”"
+    },
+    {
+      "id": "5f76e6a0261fc37de35fe847bd78ebf9d490fe4c215da03fcfe27d12db1c64b1",
+      "source": "DIAN",
+      "title": "Resolución 000033 de 2026",
+      "date": "2026-10-30",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000033 de 30-10-2026.pdf",
+      "summary": "Resolución 000033 de 2026 30/10/2026 Por la cual se modifica el título 3 de la Resolución 000227 del 23 de septiembre de 2025, Única en Materia Tributaria, Aduanera y Cambiaria y se adicionan secciones y artículos al mencionado título"
     },
     {
       "id": "a30e9510822fdc4bf78d168ff6f853c84a8821684d5fc45e62ec996e70369df1",
@@ -89,14 +97,6 @@
       "date": "2026-09-29",
       "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 014214 de 29-09-2026.pdf",
       "summary": "Resolución 014214 de 2026 29/09/2026 Por la cual se justifica el proceso de contratación directa cuyo objeto es \"El arrendamiento del local comercial, identificado con matrícula inmobiliaria No. 50C-1262113, ubicado en la Transversal 93 No 64 G - 15, zona industrial del barrio Álamos en la ciudad de Bogotá D.C."
-    },
-    {
-      "id": "9748bdaa062fc00bbf3daaf5742c7e9fe5cfb073700423c10ac94b09623be459",
-      "source": "DIAN",
-      "title": "Resolución 000437 de 2026",
-      "date": "2026-09-29",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000437 de 29-09-2026.pdf",
-      "summary": "Resolución 000437 de 2026 29/09/2026 Por medio del cual se modifica temporalmente el horario de trabajo y atención al público para el desarrollo de integración recreativa y cultural denominada “momentos que unen DIAN 2026” en la Dirección Seccional de Impuestos y Aduanas de Quibdó"
     },
     {
       "id": "186e4225863497d9f025ac4b69ec9a386e73dbc411741b084f3c87131c06d381",
