@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-11-04T06:30:39.453032+00:00",
+  "generated_at": "2026-11-04T19:53:49.366752+00:00",
   "count": 85,
   "items": [
+    {
+      "id": "0369a30c3cfc337f079cd5ba5794b1cca88b660c3f50e2efc992c73c18e1491a",
+      "source": "DIAN",
+      "title": "Resolución 000034 de 2026",
+      "date": "2026-11-03",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000034 de 03-11-2026.pdf",
+      "summary": "Resolución 000034 de 2026 03/11/2026 Por la cual se amplían los términos para la finalización de la modalidad de importación de Entrega Urgente de mercancías que ingresaron como auxilio para damnificados de catástrofes o siniestros desde el 10 de agosto de 2026 y que hayan obtenido levante a partir de esa fecha"
+    },
     {
       "id": "14067bef49680b2fd9e23863d0ff142f5c72ff643ace61ec50d5de9436a04509",
       "source": "DIAN",
@@ -89,14 +97,6 @@
       "date": "2026-10-15",
       "url": "https://www.dian.gov.co/normatividad/Normatividad/Circular 006161 de 15-10-2026.Pdf",
       "summary": "Circular 006161 de 2026 15/10/2026 Gravámenes Ad-Valórem aplicables a productos agropecuarios de referencia, sus sustitutos, productos agroindustriales o subproductos"
-    },
-    {
-      "id": "d5ff3b8face49ba3e20b4edbb902173a75e851cc5011461ffb84f2e2894f4f54",
-      "source": "DIAN",
-      "title": "Resolución 014214 de 2026",
-      "date": "2026-09-29",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 014214 de 29-09-2026.pdf",
-      "summary": "Resolución 014214 de 2026 29/09/2026 Por la cual se justifica el proceso de contratación directa cuyo objeto es \"El arrendamiento del local comercial, identificado con matrícula inmobiliaria No. 50C-1262113, ubicado en la Transversal 93 No 64 G - 15, zona industrial del barrio Álamos en la ciudad de Bogotá D.C."
     },
     {
       "id": "186e4225863497d9f025ac4b69ec9a386e73dbc411741b084f3c87131c06d381",
@@ -686,7 +686,7 @@
   "errors": [
     {
       "source": "CTCP",
-      "error": "RuntimeError: Enlaces observados: Conceptos -> /conceptos/2026"
+      "error": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.ctcp.gov.co/conceptos/2026\", waiting until \"domcontentloaded\"\n"
     },
     {
       "source": "Presidencia – DAPRE",
