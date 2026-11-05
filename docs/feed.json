@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-11-05T06:53:10.713743+00:00",
+  "generated_at": "2026-11-05T19:59:41.588836+00:00",
   "count": 85,
   "items": [
+    {
+      "id": "528412b9e2f3c325bbb91adcdb0d875c7bc63582ebb45b34b580907d3ae23751",
+      "source": "DIAN",
+      "title": "Resolución 001409 de 2026",
+      "date": "2026-11-04",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolucion-001409-04-11-2026.pdf",
+      "summary": "Resolución 001409 de 2026 04/11/2026 Por medio de la cual se habilita la jornada laboral de la Dirección Seccional de Impuestos y Aduanas de Montería."
+    },
+    {
+      "id": "4d367abf7f080a3cd1bc75f0ef6b446203e143dc394bd16299aed98b79862fed",
+      "source": "DIAN",
+      "title": "Resolución 001713 de 2026",
+      "date": "2026-11-03",
+      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 001713 de 03-11-2026.pdf",
+      "summary": "Resolución 001713 de 2026 03/11/2026 Por la cual se autoriza las 04:00 p.m. como hora laboral de salida por el día 03 de noviembre de 2026 para los servidores públicos de la Dirección Seccional de Aduanas de Cali que ejercen funciones en el antiguo Edificio BCH de la ciudad de Santiago de Cali y se dictan otras disposiciones"
+    },
     {
       "id": "0369a30c3cfc337f079cd5ba5794b1cca88b660c3f50e2efc992c73c18e1491a",
       "source": "DIAN",
@@ -73,22 +89,6 @@
       "date": "2026-10-23",
       "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 004248 de 23-10-2026.pdf",
       "summary": "Resolución 004248 de 2026 23/10/2026 Por la cual se declaran administrativamente hábiles unos días sábados y se amplía el horario laboral para funcionarios del Grupo Interno de Trabajo de Formalización Tributaria de la Dirección Seccional de Impuestos de Cali"
-    },
-    {
-      "id": "486fed988d2318b6f09e1ebc4e6af45e04def3e80f9f197f121528b7bb1eb476",
-      "source": "DIAN",
-      "title": "Resolución 001364 de 2026",
-      "date": "2026-10-23",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolucion-001364-23-10-2026.pdf",
-      "summary": "Resolución 001364 de 2026 23/10/2026 Por medio de la cual se habilita la jornada laboral de la Dirección Seccional de Impuestos y Aduanas de Montería."
-    },
-    {
-      "id": "892e3532fad8255d9fc874a1d6cca43c3c8add088dc99f6fcc78d8ec38cf493c",
-      "source": "DIAN",
-      "title": "Resolución 000133 de 2026",
-      "date": "2026-10-21",
-      "url": "https://www.dian.gov.co/normatividad/Normatividad/Resolución 000133 de 21-10-2026.Pdf",
-      "summary": "Resolución 000133 de 2026 21/10/2026 Por la cual se adecua el horario de atención al público del día 23 de octubre de 2026 en la Dirección Seccional Delegada de Impuestos y Aduanas de Puerto Carreño."
     },
     {
       "id": "8a8143c555db1c8a4e9e15ec9b14447bf24334bf5473a068985a863888d789e3",
